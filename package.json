@@ -1,0 +1,21 @@
+{
+  "name": "au-gov-designsystem",
+  "version": "0.0.1",
+  "description": "An Adobe Experience Manager implentation of the Australian Goverment Design System",
+  "license": "",
+  "scripts": {
+    "build": "aem-site-template-builder",
+    "deploy": "curl -u admin:admin -F file=@au-gov-designsystem-latest.zip http://localhost:4502/conf/global/site-templates.import.html"
+  },
+  "devDependencies": {
+    "@adobe/aem-site-template-builder": "2.1.2"
+  },
+  "siteTemplate": {
+    "title": "Australian Government Design System",
+    "createdBy": "Mark Szulc",
+    "useCases": ["Agency Sites", "Landing Pages"],
+    "docsUrl": "",
+    "showcaseUrl": "",
+    "sourceRepositoryUrl": "https://github.com/markszulc/au-gov-designsystem"
+  }
+}

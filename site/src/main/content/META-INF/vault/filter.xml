@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/au-gov-designsystem" mode="merge"/>
+    <filter root="/content/au-gov-designsystem" mode="merge"/>
+    <filter root="/content/dam/au-gov-designsystem" mode="merge"/>
+    <filter root="/content/experience-fragments/au-gov-designsystem" mode="merge"/>
+</workspaceFilter>
