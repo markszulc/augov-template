@@ -7,5 +7,6 @@
         jcr:title="My Site">
         <folderThumbnail/>
     </jcr:content>
-    <asset.jpg/>
+    <logos/>
+    <placeholders/>
 </jcr:root>

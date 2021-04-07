@@ -2,6 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2021-04-07T19:47:08.316+10:00"
+        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/au-gov-designsystem/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -10,25 +12,156 @@
         jcr:title="Header"
         sling:resourceType="cq/experience-fragments/components/xfpage">
         <root
+            jcr:lastModified="{Date}2021-04-07T17:43:10.121+10:00"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="core/wcm/components/container/v1/container"
-            layout="simple">
-            <navigation
+            layout="responsiveGrid">
+            <container
+                cq:styleIds="[1617775730561,1617775750641]"
+                jcr:created="{Date}2021-04-07T14:35:11.666+10:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-04-07T17:44:30.248+10:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/navigation/v1/navigation"
-                collectAllPages="false"
-                navigationRoot="/content/au-gov-designsystem/en"
-                skipNavigationRoot="false"
-                structureDepth="1"/>
-            <languagenavigation
+                sling:resourceType="core/wcm/components/container/v1/container"
+                layout="simple">
+                <container_1582000730
+                    cq:styleIds="[1617775001138,1617770546102,1617781238677]"
+                    jcr:created="{Date}2021-04-07T16:19:55.769+10:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-07T19:24:00.832+10:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container"
+                    layout="responsiveGrid">
+                    <container_442265722
+                        jcr:created="{Date}2021-04-07T18:09:51.831+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-04-07T19:34:06.487+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container"
+                        layout="responsiveGrid">
+                        <image
+                            cq:styleIds="[1617780922052]"
+                            jcr:created="{Date}2021-04-07T17:18:09.928+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-04-07T19:42:58.615+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/image/v2/image"
+                            alt="Australian Government Logo"
+                            altValueFromDAM="false"
+                            displayPopupTitle="false"
+                            fileReference="/content/dam/au-gov-designsystem/logos/header-logo-agov.png"
+                            isDecorative="false"
+                            linkURL="/content/au-gov-designsystem/en"
+                            titleValueFromDAM="false">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="0"
+                                    width="3"/>
+                            </cq:responsive>
+                        </image>
+                        <containerB
+                            cq:styleIds="[1617788147104]"
+                            jcr:created="{Date}2021-04-07T17:58:34.035+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2021-04-07T17:58:34.035+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/container/v1/container">
+                            <title
+                                cq:styleIds="[1617788737909]"
+                                jcr:created="{Date}2021-04-07T18:00:39.818+10:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2021-04-07T18:02:37.731+10:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/title/v2/title"
+                                type="h2"/>
+                            <text
+                                cq:styleIds="[1617788800718]"
+                                jcr:created="{Date}2021-04-07T17:59:54.519+10:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2021-04-07T18:03:31.494+10:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="core/wcm/components/text/v2/text"
+                                text="&lt;p>Government Design System&lt;/p>&#xd;&#xa;"
+                                textIsRich="true"/>
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="3"
+                                    width="5"/>
+                            </cq:responsive>
+                        </containerB>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="8"/>
+                        </cq:responsive>
+                    </container_442265722>
+                    <container
+                        jcr:created="{Date}2021-04-07T18:09:22.997+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-04-07T18:09:22.997+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/container/v1/container">
+                        <search
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="core/wcm/components/search/v1/search"
+                            searchRoot="/content/au-gov-designsystem/en">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="8"
+                                    width="4"/>
+                            </cq:responsive>
+                        </search>
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </container>
+                </container_1582000730>
+            </container>
+            <container_695687820
+                cq:styleIds="[1617772890475,1617772884738]"
+                jcr:created="{Date}2021-04-07T15:18:48.515+10:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-04-07T15:18:48.515+10:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/languagenavigation/v1/languagenavigation"
-                navigationRoot="/content/au-gov-designsystem"
-                structureDepth="1"/>
-            <search
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="core/wcm/components/search/v1/search"
-                searchRoot="/content/au-gov-designsystem/en"/>
+                sling:resourceType="core/wcm/components/container/v1/container">
+                <container_966180259
+                    cq:styleIds="[1617775001138,1617770546102]"
+                    jcr:created="{Date}2021-04-07T16:26:02.655+10:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-07T16:26:02.655+10:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="core/wcm/components/container/v1/container">
+                    <navigation_copy
+                        jcr:lastModified="{Date}2021-04-07T17:51:59.893+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/navigation/v1/navigation"
+                        collectAllPages="false"
+                        disableShadowing="false"
+                        navigationRoot="/content/au-gov-designsystem/en"
+                        skipNavigationRoot="false"
+                        structureDepth="2"
+                        structureStart="1"/>
+                </container_966180259>
+            </container_695687820>
         </root>
     </jcr:content>
 </jcr:root>
